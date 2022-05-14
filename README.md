@@ -42,6 +42,7 @@ def move():
     update()
     ontimer(move, 100)
 
+
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
@@ -52,3 +53,4 @@ onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
 move()
 done()
+
