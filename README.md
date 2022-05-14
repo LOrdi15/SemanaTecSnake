@@ -1,4 +1,4 @@
-# SemanaTecSnake
+
 
 from random import randrange, choice
 from turtle import *
